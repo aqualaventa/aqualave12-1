@@ -1,0 +1,135 @@
+body {
+	color: #fff;
+	background: pink; 
+}
+
+a{ 
+	text-decoration: none; 
+}
+
+.button {
+	background: white; 
+	color: black;
+	padding: 10px 25px;
+}
+
+.button:hover{
+	background:#3399FF;
+	color: white; 
+}
+
+
+/*----MAIN HEADER ----*/
+
+.main-header {
+	margin-bottom: 20px;
+}
+
+#main-menu{
+	padding:0; 
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	font-family: Aharoni;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+
+
+
+/*---- SHOWCASE----*/
+.showcase {
+	padding: 50px;
+	margin-bottom: 20px;
+	background-image: url (../images/Fall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	box-shadow: 0 0 10px #0a85be; 
+}
+/*----MAIN ARTICLE----*/
+.main-article {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 2.5fr 1fr;
+	padding: 0;
+	margin-bottom: 20px;
+	font-family: Agency FB; 
+	background: pink;
+	font-size: 20px; 
+}
+
+#image {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+	
+#MachoTemple {
+	font-family: Felix Titling; 
+	text-align: center;
+	
+}
+
+#SanJuan {
+	font-family: Felix Titling; 
+	text-align: center;
+	
+}
+
+.main-article-left {
+	margin: 0;
+	padding: 40px;
+	border: 2px grey solid;
+	background: black;
+	display: grid; 
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr; 
+	
+}
+
+.main-article-left h2 {
+	margin-top: 50px; 
+	font-family: Arial;
+	font-size: 30px;
+	color: black;
+}
+
+.main-article-left p {
+	font-family: Times New Roman;
+	font-size: 25px;
+	
+}
+
+.main-article-right {
+	margin: 0;
+	padding: 40px;
+	border: 2px grey solid;
+	background: white;
+	display: grid; 
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr; 
+}	
+
+.main-article-right { 
+	font-family: Times New Roman;
+	font-size: 25px;
+	
+}
+.main-article-right h2 {
+	margin-top: 50px; 
+	font-family: Arial;
+	font-size: 30px;
+}
+
+/*---- FOOTER-----*/
+.footer { 
+	padding: 10px; 
+	background: #e81691;
+	margin-bottom: 10px; 
+	font-family: Aharoni; 
+	text-align: center;
+}
+
